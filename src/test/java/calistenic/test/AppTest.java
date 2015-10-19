@@ -102,7 +102,7 @@ public class AppTest extends TestCase {
 		assertTrue(new NombreRomain("XII").equals(actual));
 	}
 
-	public void testPour_10_retourne_XIII() throws Exception {
+	public void testPour_13_retourne_XIII() throws Exception {
 		NombreArabe valeur = new NombreArabe(13);
 		NombreRomain actual = App.convertie(valeur);
 
